@@ -1,33 +1,39 @@
-# Novus Neuro Clinic — Website V2
+# My Neuro Health website v1
 
-This is a static GitHub Pages-ready website.
+A warm, animated, responsive static website built around the final uploaded My Neuro Health logo and the updated founders' vision.
 
-## Upload to GitHub
-1. Open the `novus-neuro-clinic` repository.
-2. Upload **all files and folders from this folder** to the repository root.
-3. Choose **Commit changes**.
-4. The included `CNAME` file preserves the custom domain `novusneuro.co.uk`.
-5. Wait a few minutes for GitHub Pages to redeploy.
+## Included
+- Home
+- Adult/child ADHD page
+- Adult/child autism page
+- How it works / triage journey
+- About
+- Updated public vision
+- Contact prototype
+- Privacy + terms drafts
+- CNAME for `myneurohealth.co.uk`
+- `MY_NEURO_HEALTH_FOUNDERS_VISION_v2_1.md` (internal updated vision)
 
-## Important before public launch
-- Replace launch placeholders with final fees and booking links.
-- Add the company number and registered office details where legally required.
-- Confirm the exact clinical/regulatory wording before advertising treatment or prescribing.
-- Connect the contact form to a suitable secure enquiry system; it is intentionally non-functional at present.
-- Add clinician biographies only once roles are agreed and approved for publication.
+## Brand direction
+Core message: **Understand yourself. Understand what comes next.**
+Positioning: **Personal, thorough and specialist-led.**
+Internal principle: **Human on the surface. Specialist underneath.**
 
-## Main files
-- `index.html` — homepage
-- `assessments.html` — ADHD assessments
-- `how-it-works.html` — patient journey
-- `about.html` — brand/clinical approach
-- `fees.html` — pricing placeholder
-- `contact.html` — pre-launch contact page
-- `privacy.html` — privacy notice placeholder
-- `terms.html` — website terms placeholder
-- `assets/styles.css` — design system and responsive layout
-- `assets/site.js` — navigation, scroll animation, form demo
+The colour palette is taken from the selected logo: navy, muted teal, sage and warm off-white. Animation is intentionally gentle and disables automatically when a visitor uses “reduce motion”.
 
+## Contact form
+The form does not send or store data. It creates an email to `hello@myneurohealth.co.uk`. Connect a secure enquiry/patient platform before launch.
 
-## Vision update
-This edition incorporates the Novus founders' vision into the public-facing site. It adds `vision.html`, expands About, and introduces the NOVUS principles, governance-first model, future service roadmap, accessibility, outcomes and digital-by-design themes. Future services are explicitly labelled as ambitions rather than current offerings.
+## Before live launch
+1. Confirm final legal entity/trading-name wording and add company number/address where legally required.
+2. Finalise clinician public profiles and registration/credential wording.
+3. Confirm prices and cancellation/refund terms.
+4. Connect the approved secure clinical/booking system.
+5. Replace privacy/terms drafts with versions matched to the real data flows and suppliers.
+6. Add analytics/cookie tooling only after the privacy/cookie setup is ready.
+7. Clinical leads should approve all claims about the assessment pathway before publication.
+
+## GitHub Pages
+Upload the contents of this folder to the repository root. Keep `CNAME` at the root. In GitHub Pages, set the custom domain to `myneurohealth.co.uk`.
+
+If you reuse the existing GitHub Pages repo, the typical `www` record is a CNAME to `randomm786.github.io` and the apex uses GitHub Pages A records. Check the current DNS state before changing anything.

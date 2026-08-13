@@ -1,0 +1,11 @@
+const header=document.querySelector('.site-header');
+const menuBtn=document.querySelector('.menu-btn');
+const navLinks=document.querySelector('.nav-links');
+window.addEventListener('scroll',()=>header?.classList.toggle('scrolled',window.scrollY>12));
+menuBtn?.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>navLinks?.classList.remove('open')));
+const io=new IntersectionObserver((entries)=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.13});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+document.querySelectorAll('.faq-item').forEach(item=>item.querySelector('.faq-q')?.addEventListener('click',()=>{item.classList.toggle('open')}));
+const contact=document.querySelector('#contact-form');
+contact?.addEventListener('submit',(e)=>{e.preventDefault();const data=new FormData(contact);const subject=encodeURIComponent('My Neuro Health enquiry - '+(data.get('service')||'general'));const body=encodeURIComponent(`Name: ${data.get('name')||''}\nEmail: ${data.get('email')||''}\nService: ${data.get('service')||''}\n\n${data.get('message')||''}`);window.location.href=`mailto:hello@myneurohealth.co.uk?subject=${subject}&body=${body}`;});
