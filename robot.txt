@@ -1,7 +1,0 @@
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: *
-Allow: /
-
-Sitemap: https://myneurohealth.co.uk/sitemap.xml
