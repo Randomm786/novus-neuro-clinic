@@ -1,39 +1,48 @@
-# My Neuro Health website v1
+# My Neuro Health — Phase 2
 
-A warm, animated, responsive static website built around the final uploaded My Neuro Health logo and the updated founders' vision.
+Approved Phase 2 direction: warm white/cream + olive branding, coastal human photography, clean editorial layout.
 
-## Included
-- Home
-- Adult/child ADHD page
-- Adult/child autism page
-- How it works / triage journey
-- About
-- Updated public vision
-- Contact prototype
-- Privacy + terms drafts
-- CNAME for `myneurohealth.co.uk`
-- `MY_NEURO_HEALTH_FOUNDERS_VISION_v2_1.md` (internal updated vision)
+## Live services represented
+- Adult ADHD assessment — available now
+- Child ADHD assessment — Coming Soon
+- Autism — removed from public navigation/content for now
+- No in-house medication prescribing/titration advertised
 
-## Brand direction
-Core message: **Understand yourself. Understand what comes next.**
-Positioning: **Personal, thorough and specialist-led.**
-Internal principle: **Human on the surface. Specialist underneath.**
+## Upload to GitHub
+1. Open the existing GitHub Pages repository.
+2. Upload the **contents of this folder** to the repository root, preserving the `.github`, `assets`, and other folders.
+3. Remove obsolete public files from the previous version, especially `autism.html`, `adhd.html`, `vision.html`, and old assets that are no longer referenced.
+4. Keep `CNAME` exactly as `myneurohealth.co.uk`.
+5. Commit to `main`.
+6. Check:
+   - https://myneurohealth.co.uk/
+   - https://myneurohealth.co.uk/adult-adhd.html
+   - https://myneurohealth.co.uk/child-adhd.html
+   - https://myneurohealth.co.uk/robots.txt
+   - https://myneurohealth.co.uk/sitemap.xml
 
-The colour palette is taken from the selected logo: navy, muted teal, sage and warm off-white. Animation is intentionally gentle and disables automatically when a visitor uses “reduce motion”.
+## Search / AI already built in
+- Unique page titles and descriptions
+- Canonical URLs
+- Open Graph social metadata
+- Organization and service structured data where relevant
+- `robots.txt` explicitly allows OAI-SearchBot and other crawlers
+- `sitemap.xml`
+- `llms.txt` (optional supplementary file)
+- IndexNow key and GitHub Actions workflow
 
-## Contact form
-The form does not send or store data. It creates an email to `hello@myneurohealth.co.uk`. Connect a secure enquiry/patient platform before launch.
+## Before public launch
+- Confirm the email `hello@myneurohealth.co.uk` is active.
+- Replace any placeholder legal/controller wording in Privacy and Terms with final company/legal details.
+- Add verified clinician profile information once public credentials are approved.
+- Add final booking platform URL when chosen; current booking buttons route to the Contact page/email workflow.
+- Do not collect clinical/health data through an ordinary static web form or unsecured email.
 
-## Before live launch
-1. Confirm final legal entity/trading-name wording and add company number/address where legally required.
-2. Finalise clinician public profiles and registration/credential wording.
-3. Confirm prices and cancellation/refund terms.
-4. Connect the approved secure clinical/booking system.
-5. Replace privacy/terms drafts with versions matched to the real data flows and suppliers.
-6. Add analytics/cookie tooling only after the privacy/cookie setup is ready.
-7. Clinical leads should approve all claims about the assessment pathway before publication.
-
-## GitHub Pages
-Upload the contents of this folder to the repository root. Keep `CNAME` at the root. In GitHub Pages, set the custom domain to `myneurohealth.co.uk`.
-
-If you reuse the existing GitHub Pages repo, the typical `www` record is a CNAME to `randomm786.github.io` and the apex uses GitHub Pages A records. Check the current DNS state before changing anything.
+## After deployment
+1. Add the domain to Google Search Console as a Domain property.
+2. Verify via DNS TXT in IONOS.
+3. Submit `https://myneurohealth.co.uk/sitemap.xml`.
+4. Request indexing for the homepage and Adult ADHD page.
+5. Confirm Google's generative-AI inclusion setting.
+6. Import the property into Bing Webmaster Tools and check AI Performance when data becomes available.
+7. Add Google Analytics only after you have the real `G-...` measurement ID; do not add a fake placeholder ID.
