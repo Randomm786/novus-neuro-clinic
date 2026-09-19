@@ -63,3 +63,81 @@ h1{font-size:clamp(50px,5.5vw,78px);max-width:680px;color:#122d49}.hero h1 span{
   h1{font-size:47px}.lede{font-size:16px}.services-grid,.steps,.feature-grid,.resources-grid,.form-grid,.footer-grid{grid-template-columns:1fr}.values-grid{grid-template-columns:1fr 1fr}.section{padding:55px 0}.section-head{display:block}.section-head p{margin-top:12px}.service-card{min-height:0}.approach-panel{padding:28px 22px}.cta-inner{display:block}.cta .btn{margin-top:22px}.coming-card{padding:34px 20px}.coming-card h1{font-size:46px}.footer-grid>div:first-child{grid-column:auto}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.js .reveal{opacity:1;transform:none;transition:none}.hero::before{animation:none}.btn:hover,.service-card:hover{transform:none}}
+.cookie-banner{
+  position:fixed;
+  left:20px;
+  right:20px;
+  bottom:20px;
+  z-index:9999;
+  background:#fff;
+  border:1px solid #e4e3dc;
+  border-radius:20px;
+  box-shadow:0 18px 60px rgba(20,35,25,.16);
+  padding:20px;
+}
+
+.cookie-banner-inner{
+  max-width:1180px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+}
+
+.cookie-banner p{
+  margin:6px 0 0;
+  color:#5f6f7a;
+  font-size:14px;
+}
+
+.cookie-banner a{
+  color:#596844;
+  text-decoration:underline;
+}
+
+.cookie-actions{
+  display:flex;
+  gap:10px;
+  flex-shrink:0;
+}
+
+.cookie-actions button,
+.cookie-settings{
+  font:inherit;
+  cursor:pointer;
+}
+
+.cookie-accept{
+  border:0;
+  background:#69764f;
+  color:white;
+  padding:11px 17px;
+  border-radius:999px;
+}
+
+.cookie-reject{
+  border:1px solid #ccd1c5;
+  background:white;
+  color:#324132;
+  padding:11px 17px;
+  border-radius:999px;
+}
+
+.cookie-settings{
+  border:0;
+  background:transparent;
+  color:inherit;
+  text-decoration:underline;
+  padding:0;
+}
+
+@media(max-width:700px){
+  .cookie-banner-inner{
+    display:block;
+  }
+
+  .cookie-actions{
+    margin-top:16px;
+  }
+}
