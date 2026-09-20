@@ -162,3 +162,38 @@ body{
     background:rgba(251,250,246,.96) !important;
   }
 }
+/* Mobile logo fix */
+@media (max-width:640px){
+
+  .brand img{
+    display:none;
+  }
+
+  .brand{
+    min-width:0;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+
+  .brand::before{
+    content:"";
+    width:58px;
+    height:58px;
+    flex:0 0 58px;
+    background:url("../img/brand-mark.png") center / contain no-repeat;
+  }
+
+  .brand::after{
+    content:"MY NEURO HEALTH";
+    color:#69764f;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.11em;
+    white-space:nowrap;
+  }
+
+  .header-inner{
+    height:78px;
+  }
+}
