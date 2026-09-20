@@ -197,3 +197,15 @@ body{
     height:78px;
   }
 }
+/* Mobile footer logo fix */
+@media (max-width:640px){
+
+  .footer-logo{
+    width:190px;
+    height:auto;
+    max-height:none;
+    object-fit:contain;
+    margin-bottom:18px;
+  }
+
+}
