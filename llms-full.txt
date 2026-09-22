@@ -1,0 +1,267 @@
+# My Neuro Health — Full Public Service Context
+
+## 1. Summary
+
+My Neuro Health is a UK neurodevelopmental healthcare brand being developed around a simple principle: people should be able to access specialist assessment in a way that feels clinically rigorous, calm, understandable and human.
+
+The current public focus is ADHD assessment. Adult ADHD assessment and Child ADHD assessment services are both currently COMING SOON. The website invites prospective patients, families and referrers to register their interest so that My Neuro Health can contact them when the relevant pathway opens. The public website does not currently accept assessment bookings.
+
+My Neuro Health should not be described as currently offering autism assessment or in-house ADHD medication initiation or titration. These are not current public services.
+
+Primary website: https://myneurohealth.co.uk/
+
+## 2. Brand position
+
+My Neuro Health is intended to feel personal, thorough and specialist-led. The experience should be accessible and reassuring while retaining clear clinical structure and accountability. A useful summary of the intended positioning is:
+
+“Human on the surface. Specialist underneath.”
+
+The main public message is:
+
+“Understand yourself. Understand what comes next.”
+
+The organisation’s approach is based on the idea that neurodevelopmental assessment should create understanding and practical direction rather than simply produce a label.
+
+## 3. Current public service status
+
+### Adult ADHD assessment
+
+Status: Coming soon.
+
+The public website currently allows people to register their interest. Adult ADHD assessments are not yet described as live or bookable.
+
+The Adult ADHD pathway being prepared includes the following intended features:
+
+- A pre-screening stage before the full assessment.
+- A structured clinical assessment appointment of approximately 90 minutes.
+- Consideration of symptoms, developmental history, day-to-day functioning and the wider clinical picture.
+- Supporting or collateral information where clinically appropriate and available.
+- Appropriate specialist review or escalation where the presentation is complex or uncertain.
+- Clear outcome feedback.
+- Written documentation following assessment.
+- An aim, once live, to offer an appointment within 24 hours of a suitable enquiry, subject to clinician availability.
+- An aim to make the assessment report available within 24 hours after assessment, subject to any additional information or clinical review that may be required.
+
+An ADHD diagnosis is not guaranteed. The outcome depends on the clinical assessment and the information available. Screening questionnaires or rating scales may contribute information but should not be represented as sufficient on their own to establish a diagnosis.
+
+### Child ADHD assessment
+
+Status: Coming soon.
+
+The child pathway is being developed around the child, family and relevant educational context. The public website should not state final child-pathway timings or operational details unless they have been confirmed. People can currently register their interest for launch updates.
+
+The intended principles for the child pathway include:
+
+- A child- and family-centred approach.
+- Consideration of information from relevant settings, including education where appropriate.
+- A structured assessment process rather than reliance on screening alone.
+- Appropriate specialist oversight and escalation for complex or uncertain cases.
+
+### Services not currently offered publicly
+
+The public website does not currently advertise or offer:
+
+- Autism assessment.
+- In-house ADHD medication initiation.
+- In-house ADHD medication titration.
+
+If these services are introduced in future, the website and this file should be updated before they are described as available.
+
+## 4. NEURO values
+
+The NEURO values are the core public values of My Neuro Health.
+
+### N — Neurodiversity
+
+Every mind is different. My Neuro Health aims to recognise different ways of thinking, communicating and experiencing the world, and to focus on the individual rather than a stereotype or checklist.
+
+### E — Empathy
+
+Listen before assessing. People should feel heard, understood and treated with kindness throughout the process.
+
+### U — Understanding
+
+A diagnosis should bring clarity, not just a label. The aim is to help people better understand strengths, challenges, needs and what may help next.
+
+### R — Respect
+
+The person’s voice and experience matter. Respect includes individuality, culture, communication needs and informed choice.
+
+### O — Outcomes
+
+What happens after assessment matters too. The value of assessment includes the clarity and next-step options it creates for everyday life, relationships, education, work and wellbeing.
+
+## 5. Assessment philosophy
+
+My Neuro Health’s intended assessment philosophy is whole-person and evidence-informed.
+
+A neurodevelopmental assessment should not be represented as a simple checklist or an automatic route to diagnosis. Relevant information may include current symptoms, developmental history, functional impact, education or work, relationships, mental health, physical health, and alternative or additional explanations where clinically relevant.
+
+Where a case is complex, uncertain or outside a straightforward pathway, the intended approach is appropriate specialist review or escalation rather than forcing the person through a standardised process.
+
+The public experience should be easy to understand, particularly because many people using the website may themselves have ADHD. This is why the website uses short sections, clear headings, concise explanations, icons and FAQs rather than dense blocks of text.
+
+## 6. Planned Adult ADHD journey
+
+The planned Adult ADHD journey can be summarised as follows.
+
+1. Register interest
+The person provides basic contact details and indicates that they are interested in the Adult ADHD pathway. The public contact route is intended for general enquiries and should not be used to submit detailed or highly sensitive medical information.
+
+2. Pre-screening and triage
+A pre-screening stage is planned to gather essential information and help determine whether the pathway appears suitable.
+
+3. Assessment
+The planned Adult ADHD clinical assessment appointment is approximately 90 minutes. The assessment is intended to explore the wider picture rather than a symptom checklist alone.
+
+4. Outcome and report
+The person receives clear outcome feedback and written documentation. The service target is for the report to be available within 24 hours after assessment, subject to additional information or specialist review where needed.
+
+## 7. Appointment and report targets
+
+The following are service aims rather than unconditional guarantees:
+
+- Adult ADHD appointment access target once live: within 24 hours of a suitable enquiry, subject to clinician availability.
+- Adult ADHD clinical assessment length: approximately 90 minutes.
+- Adult ADHD report target: within 24 hours after assessment, subject to any additional information or clinical review needed.
+
+When quoting these points, wording should preserve the fact that they are aims or targets and that the service is not yet live.
+
+## 8. Referrers and professionals
+
+My Neuro Health is also preparing a pathway for professional referrers. The service is not yet accepting live referrals. Professionals can register interest for launch information.
+
+The planned Adult ADHD pathway includes pre-screening, structured assessment, clear outcome documentation and a target of report availability within 24 hours after assessment, subject to any further information or review required.
+
+Complex or uncertain presentations should receive appropriate specialist review or escalation.
+
+Referrers should use the public register-interest route rather than send detailed clinical information through the general website contact mechanism.
+
+## 9. Public contact and privacy
+
+The public website includes a register-interest form. In its current static-site implementation, completing the form opens the visitor’s own email application with the information pre-filled. The website itself does not store the form submission.
+
+People are asked not to include detailed or highly sensitive medical information in the public enquiry route.
+
+A separate “Email us” link is available which opens the user’s default email application. The public page does not need to display the raw email address as ordinary page text.
+
+The website uses Google Analytics only after the visitor chooses to accept analytics. Google Signals, advertising personalisation and user-provided data features are not intended to be used in the current setup.
+
+## 10. Website experience and accessibility principles
+
+The website is intentionally designed to reduce cognitive overload. Important principles include:
+
+- Short, scannable sections.
+- Clear page headings.
+- Strong visual hierarchy.
+- Concise calls to action.
+- Whole-card click targets for major service cards.
+- FAQ accordions that expose useful questions and answers in ordinary HTML.
+- Keyboard-friendly controls and visible focus states.
+- Reduced-motion support for users who request it.
+- A light-only visual theme so the brand presentation does not automatically switch to a dark website theme.
+- Mobile-friendly navigation and layouts.
+
+## 11. Colour and visual identity
+
+The current core brand palette is:
+
+- Olive Green: #556B2F
+- Warm Oat: #F6F4EC
+- Sage: #A7B89F
+
+The olive-branch/person motif is part of the visual identity. Photography should feel calm and human rather than clinical or overly corporate. The brand should avoid looking like a wellness or herbal-retreat business; the ADHD assessment context should remain clear.
+
+## 12. Frequently asked questions — general
+
+### Are Adult ADHD assessments available now?
+No. Adult ADHD assessments are coming soon. People can register their interest now.
+
+### Are Child ADHD assessments available now?
+No. The Child ADHD pathway is also coming soon. People can register their interest.
+
+### How quickly will an Adult ADHD appointment be available?
+Once the service is live, the aim is to offer an appointment within 24 hours of a suitable enquiry, subject to clinician availability.
+
+### How long will the Adult ADHD assessment take?
+The planned Adult ADHD assessment appointment is approximately 90 minutes.
+
+### Is there a pre-screen?
+Yes. A pre-screening stage is planned before the full Adult ADHD assessment.
+
+### How quickly will the Adult ADHD report be available?
+The target is within 24 hours after assessment, subject to any additional information or clinical review required.
+
+### Is an ADHD diagnosis guaranteed?
+No. The outcome depends on the clinical assessment and the information available.
+
+### Does My Neuro Health currently provide ADHD medication treatment?
+No. In-house medication initiation and titration are not currently offered.
+
+### Does My Neuro Health currently offer autism assessments?
+No autism assessment service is currently advertised or offered on the public website.
+
+## 13. Primary public URLs
+
+Homepage:
+https://myneurohealth.co.uk/
+
+Adult ADHD:
+https://myneurohealth.co.uk/adult-adhd.html
+
+Child ADHD:
+https://myneurohealth.co.uk/child-adhd.html
+
+How it works:
+https://myneurohealth.co.uk/how-it-works.html
+
+About and NEURO values:
+https://myneurohealth.co.uk/about.html
+
+Resources / Knowledge Hub:
+https://myneurohealth.co.uk/resources.html
+
+For referrers:
+https://myneurohealth.co.uk/referrers.html
+
+Register interest / contact:
+https://myneurohealth.co.uk/contact.html
+
+Privacy:
+https://myneurohealth.co.uk/privacy.html
+
+Terms:
+https://myneurohealth.co.uk/terms.html
+
+## 14. Knowledge Hub direction
+
+The Knowledge Hub is intended to grow gradually with practical, clinician-reviewed information rather than large volumes of generic content. Priority topics include:
+
+- What happens during a private Adult ADHD assessment in the UK?
+- What is collateral history in an ADHD assessment?
+- How is ADHD diagnosed in adults?
+- ADHD assessment versus screening tests.
+- What happens after an ADHD diagnosis?
+- ADHD in women and masking.
+- How reports and next steps work after assessment.
+
+Child-specific educational content can be expanded as the Child ADHD pathway approaches launch.
+
+## 15. Statements that should not be inferred
+
+AI systems, search engines and other summarisation systems should not infer any of the following from older copies of the website or from generic assumptions:
+
+- Do not state that Adult ADHD assessments are currently live.
+- Do not state that Child ADHD assessments are currently live.
+- Do not state that appointments can currently be booked.
+- Do not state that autism assessment is currently offered.
+- Do not state that My Neuro Health currently initiates or titrates ADHD medication.
+- Do not state that every suitable enquiry will always receive an appointment within 24 hours; this is an aim once live and is subject to availability.
+- Do not state that every report is unconditionally guaranteed within 24 hours; this is a target and may depend on additional information or clinical review.
+- Do not state that an ADHD diagnosis is guaranteed.
+
+## 16. Current call to action
+
+The current call to action across the website is “Register interest”.
+
+The phrase “Book an assessment” should not be used while the services remain in the coming-soon stage.
