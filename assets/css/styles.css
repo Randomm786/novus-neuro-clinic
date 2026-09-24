@@ -51,3 +51,18 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;line-height
 @media (max-width:640px){.container,.container-wide{width:min(100% - 28px,var(--max))}.header-inner{height:76px}.brand-mark{width:52px;height:52px}.brand-text{font-size:11px;letter-spacing:.10em}.page-hero{padding:60px 0 44px}.hero{padding:34px 0 48px}.hero-grid{gap:28px}.hero-photo{aspect-ratio:1.18/1;border-radius:28px 8px 28px 8px}.quote-card{position:relative;right:auto;bottom:auto;width:100%;margin-top:-24px;margin-left:14px;max-width:calc(100% - 28px)}h1{font-size:clamp(46px,14vw,62px)}.page-hero h1{font-size:46px}.lede{font-size:16px}.section{padding:56px 0}.section-head{display:block}.section-head p{margin-top:12px}.services-grid,.feature-grid,.facts-grid,.steps,.steps-three,.three-grid,.resources-grid,.form-grid,.footer-grid{grid-template-columns:1fr}.service-card{min-height:0;padding:26px}.approach-panel{padding:30px 23px}.values-grid{grid-template-columns:1fr}.values-grid .value-card:last-child{grid-column:auto}.cta-inner{display:block}.cta .btn{margin-top:22px}.cta h2{font-size:38px}.footer-grid>div:first-child{grid-column:auto}.footer-logo{width:230px}.cookie-banner-inner{display:block}.cookie-actions{margin-top:16px}.cookie-actions button{flex:1}.cookie-actions{display:flex}.faq-item summary{padding:20px 0}.faq-answer{padding-left:0}.contact-grid{gap:24px}}
 @media (prefers-color-scheme:dark){:root{color-scheme:light only}html,body{background:var(--oat)!important;color:var(--ink)!important}.site-header{background:rgba(246,244,236,.96)!important}.field input,.field textarea,.field select{background:#fff!important;color:var(--ink)!important}}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.js .reveal{opacity:1;transform:none;transition:none}.hero::before,.scroll-cue{animation:none}.btn:hover,.service-card:hover{transform:none}}
+
+/* Assessment-to-treatment content additions, 24 September 2026. */
+.launch-note{max-width:720px;color:var(--muted);margin:0 0 24px;font-size:16px;line-height:1.7}
+.microcopy{max-width:680px;color:var(--muted);font-size:13px;margin:14px 0 0}
+.source-note{font-size:13px;color:var(--muted);line-height:1.7;margin:24px 0 0;max-width:940px}
+.source-note a,.faq-answer a{color:var(--olive-dark);text-decoration:underline;text-underline-offset:3px}
+.section-actions{margin-top:26px}.section-note{margin-top:26px}
+.page-jumps{display:flex;flex-wrap:wrap;gap:10px}
+.page-jumps a{display:inline-block;padding:9px 17px;border:1px solid var(--line);border-radius:999px;background:var(--white);font-size:14px;color:var(--olive-dark)}
+.page-jumps a:hover{background:var(--sage-soft)}
+main section[id]{scroll-margin-top:110px}
+@media (min-width:981px){.nav{gap:clamp(12px,1.7vw,26px)}.nav a{white-space:nowrap}.header-inner{gap:22px}}
+@media (min-width:981px) and (max-width:1200px){.brand-full{width:205px}.nav{font-size:13px;gap:12px}.header-inner{gap:16px}.header-cta{padding:12px 17px}}
+@media (max-width:980px){.nav.open{max-height:calc(100svh - 86px);overflow-y:auto}}
+@media (max-width:640px){.launch-note{font-size:15px}.page-jumps{gap:8px}.page-jumps a{font-size:13px;padding:8px 13px}.source-note{font-size:13px}.microcopy{font-size:13px}main section[id]{scroll-margin-top:96px}}

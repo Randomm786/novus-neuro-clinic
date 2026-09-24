@@ -17,7 +17,7 @@ function loadAnalytics(){
   gtag('config',GA_ID,{allow_google_signals:false,allow_ad_personalization_signals:false});
   const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(script);
 }
-function saveAnalyticsChoice(choice){localStorage.setItem(CONSENT_KEY,choice);const banner=document.querySelector('.cookie-banner');if(banner)banner.remove();if(choice==='accepted')loadAnalytics();}
+function saveAnalyticsChoice(choice){localStorage.setItem(CONSENT_KEY,choice);const banner=document.querySelector('.cookie-banner');if(banner)banner.remove();if(choice==='accepted')loadAnalytics();else if(window.mnhAnalyticsLoaded){window['ga-disable-'+GA_ID]=true;window.location.reload();}}
 function showCookieBanner(){
   if(document.querySelector('.cookie-banner'))return;
   const banner=document.createElement('div');banner.className='cookie-banner';banner.innerHTML=`<div class="cookie-banner-inner"><div><strong>Website analytics</strong><p>We'd like to use Google Analytics to understand how people use our website and improve it. Analytics only loads if you accept. <a href="privacy.html">Privacy notice</a></p></div><div class="cookie-actions"><button type="button" class="cookie-reject">Reject</button><button type="button" class="cookie-accept">Accept analytics</button></div></div>`;document.body.appendChild(banner);
@@ -26,6 +26,11 @@ function showCookieBanner(){
 }
 const analyticsChoice=localStorage.getItem(CONSENT_KEY);if(analyticsChoice==='accepted')loadAnalytics();else if(!analyticsChoice)showCookieBanner();
 const copyright=document.querySelector('.copyright');if(copyright){const settingsButton=document.createElement('button');settingsButton.type='button';settingsButton.className='cookie-settings';settingsButton.textContent='Cookie settings';settingsButton.addEventListener('click',()=>{localStorage.removeItem(CONSENT_KEY);showCookieBanner();});copyright.appendChild(settingsButton);}
+
+
+// Conversion-intent tracking. Events are sent only when analytics has loaded after consent.
+function mnhTrack(name,params={}){if(localStorage.getItem(CONSENT_KEY)==='accepted' && typeof window.gtag==='function'){window.gtag('event',name,params);}}
+document.addEventListener('click',(event)=>{const link=event.target.closest('a');if(!link)return;const href=link.getAttribute('href')||'';const label=(link.textContent||'').trim().slice(0,100);if(href==='contact.html'||href.startsWith('contact.html#'))mnhTrack('register_interest_click',{link_text:label,page_path:location.pathname});if(href.startsWith('mailto:'))mnhTrack('email_click',{page_path:location.pathname});});
 
 // Register-interest form: privacy-first static-site fallback.
 const interestForm=document.querySelector('#interest-form');
@@ -42,6 +47,7 @@ if(interestForm){interestForm.addEventListener('submit',(event)=>{
   const subject=`My Neuro Health - ${interest}`;
   const body=[`Name: ${name}`,`Email: ${email}`,phone?`Phone: ${phone}`:'',`Interest: ${interest}`,'',message?`Message:\n${message}`:''].filter(Boolean).join('\n');
   const href=`mailto:hello@myneurohealth.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  if(status)status.textContent='Opening your email app…';
+  mnhTrack('enquiry_email_draft_open',{page_path:location.pathname});
+  if(status)status.textContent='Your email app should open with a draft. Press send there to complete your enquiry. If it does not open, use the Email us link or contact hello@myneurohealth.co.uk directly.';
   window.location.href=href;
 });}

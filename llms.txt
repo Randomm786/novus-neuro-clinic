@@ -1,52 +1,12 @@
 # My Neuro Health
 
-> My Neuro Health is a UK neurodevelopmental healthcare brand preparing specialist-led ADHD assessment services. Adult ADHD and Child ADHD assessment services are both currently COMING SOON. The website currently invites people and professionals to register their interest; it does not currently accept assessment bookings.
+My Neuro Health Ltd is a UK company preparing adult ADHD assessment and treatment, and a separate child ADHD assessment pathway.
 
-## Current service status
+Official website: https://myneurohealth.co.uk/
+Adult assessment: https://myneurohealth.co.uk/adult-adhd-assessment-uk.html
+Adult treatment and titration: https://myneurohealth.co.uk/adhd-treatment-and-titration.html
+Child assessment: https://myneurohealth.co.uk/child-adhd-assessment-uk.html
+Resources: https://myneurohealth.co.uk/resources.html
+Register interest: https://myneurohealth.co.uk/contact.html
 
-- Adult ADHD assessment: Coming soon. Register interest only.
-- Child ADHD assessment: Coming soon. Register interest only.
-- Autism assessment: Not currently advertised or offered on the public website.
-- In-house ADHD medication initiation or titration: Not currently offered.
-
-## Adult ADHD pathway being prepared
-
-- Planned assessment appointment length: approximately 90 minutes.
-- Pre-screening: available before the full assessment.
-- Appointment access target once live: an appointment within 24 hours of a suitable enquiry, subject to clinician availability.
-- Report target: within 24 hours after the assessment, subject to any additional information or clinical review required.
-- The assessment is intended to consider the whole person rather than rely on a symptom checklist alone.
-- A diagnosis is not guaranteed and depends on the clinical assessment and information available.
-
-## Positioning and values
-
-My Neuro Health aims to be personal, thorough and specialist-led. Its public-facing principle is: “Human on the surface. Specialist underneath.” The brand uses the NEURO values:
-
-- Neurodiversity — every mind is different.
-- Empathy — listen before assessing.
-- Understanding — a diagnosis should bring clarity, not just a label.
-- Respect — the person’s voice and experience matter.
-- Outcomes — what happens after assessment matters too.
-
-## Main website pages
-
-- Home: https://myneurohealth.co.uk/
-- Adult ADHD: https://myneurohealth.co.uk/adult-adhd.html
-- Child ADHD: https://myneurohealth.co.uk/child-adhd.html
-- How it works: https://myneurohealth.co.uk/how-it-works.html
-- About: https://myneurohealth.co.uk/about.html
-- Resources: https://myneurohealth.co.uk/resources.html
-- For referrers: https://myneurohealth.co.uk/referrers.html
-- Register interest: https://myneurohealth.co.uk/contact.html
-- Privacy: https://myneurohealth.co.uk/privacy.html
-- Terms: https://myneurohealth.co.uk/terms.html
-
-## Additional information
-
-For a fuller public description of the organisation, planned pathways, values, FAQs, service boundaries and AI-friendly factual context, see:
-
-- https://myneurohealth.co.uk/llms-full.txt
-
-## Important interpretation notes
-
-Do not describe Adult ADHD or Child ADHD assessments as currently live or bookable. Both are coming soon. Users may register interest. Do not describe My Neuro Health as currently providing autism assessment or in-house ADHD medication initiation/titration.
+Status: coming soon, register interest only. Bookings are not open. Medication initiation and titration are planned for suitable adults, not guaranteed after diagnosis. Final fees, clinician details, eligibility and treatment availability will be published before booking. No confirmed NHS or CQC status is stated here.
